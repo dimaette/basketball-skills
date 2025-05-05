@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>БАСКЕТБОЛЬНЫЕ НАВЫКИ</title>
+<style>
+
+
+  /* Сброс и базовые стили */
+
+  
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212;
+    color: #fefefe;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    background: #1f2937;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fbbf24; /* янтарный цвет */
+  }
+  nav {
+    background: #252f3f;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 0.5rem 0;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #fbbf24;
+  }
+  nav a {
+    color: #fbbf24;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  nav a:hover, nav a:focus {
+    background-color: #fbbf24;
+    color: #121212;
+    outline: none;
+  }
+  main {
+    flex-grow: 1;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  section h2 {
+    color: #fbbf24;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #fbbf24;
+    padding-bottom: 0.15rem;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  a.external-link {
+    color: #60a5fa; /* голубой */
+    text-decoration: underline;
+  }
+  footer {
+    background: #1f2937;
+    color: #aaa;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+    border-top: 1px solid #333;
+  }
+  @media (max-width: 350px) {
+    body {
+      font-size: 14px;
+    }
+    nav {
+      gap: 6px;
+    }
+    nav a {
+      font-size: 0.85rem;
+      padding: 0.2rem 0.4rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+    
+    
+
+    <div class="start-screen" id="startScreen">
+        <h2>Добро пожаловать на сайт о баскетбольных навыках!</h2>
+        <p>Здесь вы найдете полезные советы и техники для улучшения вашей игры.</p>
+        <button onclick="document.getElementById('startScreen').style.display='none'">Начать</button>
+    </div>
+    <header>
+  
+    
+  <h1>Навыки игры в баскетбол</h1>
+</header>
+<nav aria-label="Основная навигация">
+  <a href="#dribbling" tabindex="0">Ведение мяча</a>
+  <a href="#shooting" tabindex="0">Броски</a>
+  <a href="#passing" tabindex="0">Передачи</a>
+  <a href="#defense" tabindex="0">Защита</a>
+  <a href="#footwork" tabindex="0">Работа ног</a>
+</nav>
+<main>
+  <section id="dribbling" tabindex="0">
+    <h2>Ведение мяча</h2>
+    <p>Ведение мяча — базовый навык для контроля мяча и создания атакующих возможностей.</p>
+    <ul>
+      <li>Контроль: держите руку сверху мяча, следите за площадкой, а не за мячом.</li>
+      <li>Варьирование скорости: меняйте скорость ведения для обхождения соперников.</li>
+      <li>Используйте обе руки: тренируйте ведение мячом и слабой рукой для универсальности.</li>
+    </ul>
+    <p>Смотрите <a class="external-link" href="https://www.youtube.com/watch?v=MXbLCTqfWiw" target="_blank" rel="noopener">видео с тренировками ведения мяча</a>.</p>
+  </section>
+  
+  <img src="https://vtb-league.com/app/uploads/2025/04/Top_Avtodor_Uniks_PO2.jpg" width="300" height="200" alt="" />
+  
+  <section id="shooting" tabindex="0">
+    <h2>Броски</h2>
+    <p>Точные броски — ключ к набору очков. Работайте над стабильной техникой и завершением броска.</p>
+    <ul>
+      <li>Положение ног: ступни на ширине плеч, колени слегка согнуты.</li>
+      <li>Хват мяча: используйте кончики пальцев, а не ладонь.</li>
+      <li>Фоллоу-тру: сделайте резкий щелчок кистью и удерживайте руку после броска.</li>
+    </ul>
+    <p>Улучшайте бросок с помощью упражнений из раздела <a class="external-link" href="https://www.nba.com/player/skills" target="_blank" rel="noopener">NBA Skills</a>.</p>
+  </section>
+  
+  <img src="https://sport.sevastopol.su/wp-content/uploads/2025/02/17864b3974209bdba35891740d3dc.webp" width="300" height="200" alt="" />
+  
+  <section id="passing" tabindex="0">
+    <h2>Передачи</h2>
+    <p>Эффективные передачи помогают сохранять владение и создавать моменты для атак.</p>
+    <ul>
+      <li>Передача от груди: быстрая и прямая передача от уровня груди.</li>
+      <li>Передача с отскоком: отскочите мяч на 2/3 пути до партнёра.</li>
+      <li>Передача через голову: используется для передачи через защитников или на дальние дистанции.</li>
+    </ul>
+    <p>Изучите техники передач на <a class="external-link" href="https://www.breakthroughbasketball.com/fundamentals/passing.html" target="_blank" rel="noopener">Breakthrough Basketball</a>.</p>
+  </section>
+  
+  <img src="https://www.ballgames.ru/img/basketball_pass_h2.jpg" width="300" height="200" alt="" />
+  
+  <section id="defense" tabindex="0">
+    <h2>Защита</h2>
+    <p>Хорошая защита может изменить ход игры. Держитесь низко и активно используйте руки.</p>
+    <ul>
+      <li>Защитная стойка: легкое сгибание колен, широкий шаг, стоять на носках.</li>
+      <li>Работа ног: скользите ногами, не перекрещивайте их.</li>
+      <li>Предугадывание: смотрите на бедра соперника, чтобы предсказать его движение.</li>
+    </ul>
+    <p>Посмотрите различные упражнения на <a class="external-link" href="https://www.coachup.com/nation/articles/5-tips-to-improve-basketball-defense" target="_blank" rel="noopener">CoachUp Blog</a>.</p>
+  </section>
+  
+  <img src="https://basket.ru/wp-content/uploads/2023/09/34.jpg" width="300" height="200" alt="" /> 
+  
+  <section id="footwork" tabindex="0">
+    <h2>Работа ног</h2>
+    <p>Хорошая работа ног улучшает равновесие, скорость и эффективность на площадке.</p>
+    <ul>
+      <li>Jump Stops: быстро останавливайтесь, поставив ноги на ширине плеч.</li>
+      <li>Пивотирование: одна нога остаётся на месте, поворачивайтесь на ней.</li>
+      <li>Защитные скольжения: держитесь низко и двигайтесь боком, чтобы не дать пройти сопернику.</li>
+    </ul>
+    <p>Упражнения по работе ног можно найти на <a class="external-link" href="https://www.stack.com/a/basketball-footwork-drills" target="_blank" rel="noopener">STACK</a>.</p>
+  </section>
+  <section id="creator" tabindex="0">
+    <h2>О создателе</h2>
+    <p>Этот сайт был создан Дмитрием Едемским — чемпионом России по баскетболу и двукратным чемпионом города Нижний Новгород.</p>
+  </section>
+</main>
+<footer>
+  &copy; 2024 Навыки игры в баскетбол. Все права защищены.
+</footer>
+</body>
+</html>
